@@ -38,6 +38,5 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
     compile 'org.wildfly.swarm:bootstrap:' + swarmVersionBeta1
     compile 'org.wildfly.swarm:jaxrs:' + swarmVersionBeta1
-    compile 'org.wildfly.swarm:swagger-webapp:' + swarmVersionBeta1
     compile 'org.wildfly.swarm:swagger:' + swarmVersionBeta1
 }
