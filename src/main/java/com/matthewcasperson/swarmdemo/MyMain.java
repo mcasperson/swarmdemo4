@@ -17,6 +17,7 @@ public class MyMain {
         final JAXRSArchive deployment = ShrinkWrap.create( JAXRSArchive.class );
         deployment.addResource( MyApplication.class );
         deployment.addResource( MyRest.class );
+        deployment.addResource( CORSFilter.class );
 
         // Enable the swagger bits
         final SwaggerArchive archive = deployment.as(SwaggerArchive.class);
