@@ -1,2 +1,1 @@
-
-web: java $JAVA_OPTS -Djboss.http.port=$PORT -jar build/libs/swarmdemo4-swarm.jar
+web: java $JAVA_OPTS $JAVA_TOOL_OPTIONS -Djboss.http.port=$PORT -jar build/libs/swarmdemo4-swarm.jar
