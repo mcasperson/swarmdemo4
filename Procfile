@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS $JAVA_TOOL_OPTIONS -XX:MaxMetaspaceSize=64m -XX:CompressedClassSpaceSize=64m -Djboss.http.port=$PORT -jar build/libs/swarmdemo4-swarm.jar
+web: java $JAVA_OPTS $JAVA_TOOL_OPTIONS -XX:MaxMetaspaceSize=48m -XX:CompressedClassSpaceSize=48m -Djboss.http.port=$PORT -jar build/libs/swarmdemo4-swarm.jar
