@@ -17,7 +17,6 @@ apply plugin: 'wildfly-swarm'
 
 swarm {
     mainClassName = "com.matthewcasperson.swarmdemo.MyMain"
-    jvmArgument = "-Xmx350m -Xss512k -Dfile.encoding=UTF-8"
 }
 
 sourceCompatibility = 1.8
