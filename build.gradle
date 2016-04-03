@@ -40,3 +40,8 @@ dependencies {
     compile 'org.wildfly.swarm:jaxrs:' + swarmVersionBeta1
     compile 'org.wildfly.swarm:swagger:' + swarmVersionBeta1
 }
+
+// For heroku
+task stage {
+    dependsOn build
+}
