@@ -1,1 +1,1 @@
-web: java -Xmx256m -Xss256k -Dfile.encoding=UTF-8 -XX:MaxMetaspaceSize=48m -XX:CompressedClassSpaceSize=48m -Djboss.http.port=$PORT -jar build/libs/swarmdemo4-swarm.jar
+web: java -Djboss.http.port=$PORT -jar build/libs/swarmdemo4-swarm.jar
